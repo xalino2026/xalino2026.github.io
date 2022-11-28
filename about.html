@@ -1,167 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>One Piece</title>
+        <title>Anteiku</title>
         <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <style>
-        .header {
-            padding: 0;
-            text-align: center;
-            background: black;
-            color: #0EB774;
-            font-size: 40px;
-            overflow: hidden;
-            min-height:300px;
-            background:url('https://assets-prd.ignimgs.com/2021/03/05/one-piece-general-1614968636890.jpg') no-repeat;
-            background-size:cover;
-            background-position: center center;
-            font-family: 'Noto Sans JP', sans-serif;
-        }
-        .active{
-            background-color: cyan;
-        }         
-        #home{
-            margin: 0px;
-            padding: 10px;
-            border: none;
-        }
         body{
-            background-color: beige;
-            width: 1350px;
             margin-left: auto;
             margin-right: auto;
+            width: 1350px;
+            font-family: 'Dancing Script', cursive;
+            background-color: #000000;
+            background-size: cover;
+            
         }
-        .a{
-            text-align: left;
-            width: 684px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            float: right;
-        }
-        .b{
-            font-family: 'Noto Sans JP', sans-serif;
-        }
-        .sub1{
-            text-indent: 30px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 30px;
-            padding-right: 30px;      
-            background-color: #5ce1e6;
-            border: 1px solid black; 
-        }
-        .sub2{
-            font-family: 'Noto Sans JP', sans-serif;
+        header{
+            background-color: #000000;
+            padding: 10px 12px;
+            color:	#fc0000;
             text-align: center;
-            color: black;
+            border: 3px solid #660000;
         }
-        .sub3{
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 30px;
-            padding-right: 30px;      
-            background-color: #5ce1e6;
-            border: 1px solid black; 
-        }
-        .b{
-            float:left;
-        }
-        .c{
+        figure{
             text-align: left;
-            width: 684px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            float: right;
         }
-        .d{
-            font-family: 'Noto Sans JP', sans-serif;
-            float: right;
+        figcaption{
+            font-size: 150%;
         }
-        #characters{
-            margin: 0;
-            padding: 10px;
-            border: none;
+        nav{
+            width: 100%;
+            background-color: #660000;
+            background-blend-mode: lighten;
+            font-size: 150%;
         }
-        #arcs{
-            margin: 0;
-            padding: 10px;
-            border: none;
-        }
-        #news{
-            margin: 0;
-            padding: 10px;
-            border: none;
-        }
-        #about{
-            margin: 0;
-            padding: 10px;
-            border: none;
-        }
-        ul{
+        nav ul{
+            width: 1350px;
             list-style-type: none;
-            margin: 0;
-            padding: 0;
+            padding: 0px;
             overflow: hidden;
-            border: 3px solid skyblue;
-            background-color: #f3f3f3;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 0;
+            margin-bottom: 0;
         }
-        li {
+        nav ul li{
+            float: right;
+        }
+        nav ul li a{
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+            font-size: 15pt;
+        }
+        nav ul li:hover{
+            background-color: #101010;
+        }
+        nav li a.active{
+            background-color: #101010;
+        }
+        section{
+            text-align: center;
+            margin: auto;
+            background-color:#000000;
+            color: #fc0000;
+            float: left;
+            width:700px;
+        }
+        article{
+            font-size: 120%;
+            color:#660000;
+            text-align: center;
+            margin-left:auto;
+            margin-right:auto;
+            width:500px;
             float: left;
         }
-        li a {
-            display: block;
-            color: black;
+        #title{
             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
+            font-size: 200%;
         }
-
-        li a:hover:not(.active) {
-            background-color: #1bd4ec;
+        .paragraph{
+            text-align: center;
+            font-size: 150%;
         }
-        li a.active {
-            color: black;
-            background-color: #1bd4ec;
+        figure{
+            text-align: center;
+            margin: auto;
         }
-
-</style>
-</head>
-<body>
-<div class="header">
-    <h1>ONE PIECE: EAST BLUE SAGA</h1>
-    </div>
-<div class="navbar">
-    <ul>
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="characters.html">Characters</a></li>
-    <li><a href="arcs.html">Arcs</a></li>
-    <li><a href="news.html">News</a></li>
-    <li><a href="about.html">About</a></li>
-    </ul>
-</div>
-<div id="about">
-    <h1 class="sub2">ABOUT</h1>
-    <div class="b">
-        <h3 class="sub2">The Author</h3>
-        <img class="b" src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t1.15752-9/307844706_805498040703376_8147715693198545699_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGuxYExDm0e4-poiJxS2nLVyrLKxUpzlxvKssrFSnOXG1z79eBZxK6SVJKrX8c4TczrEthmy0titLb-qt7r-mNB&_nc_ohc=LZ_YKhEnKoEAX8OGaYy&_nc_ht=scontent.fcrk2-2.fna&oh=03_AdQIUjQD6fg9Kq006BDKE3b3IzaVIFfLM6bLRIXPI8SEOw&oe=638DE9A6" width="300" height=300 alt="author">
-        <div class="a">
-            <div class="b">
-                <p class="sub1">Konichiwa! I'm Xyzcherenathaneralei Aliño of 9-Samat, Yoroshiku Onegaishimasu! I'm a big fan of One Piece so I made a website about One Piece. Unfortunately, I only did the East Blue Saga part due to the lack of time making all the characters' portfolios and backgrounds. Though, thank you for visiting my little website.</p>
-                <div class="a">
-                    <div class="b">
-                        <p class="sub3">"KAIZOKU NI ORE WA NARU" -Mokey D. Luffy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</body>
+        aside{
+            float: right;
+            text-align: center;
+            color: #000000;
+            margin:auto;
+            width: 650px;
+        }
+        #a{
+            font-size: 120%;
+            font-weight: bold;
+        }
+        #b{
+            font-family:Arial, Helvetica, sans-serif
+        }
+        #c{
+            font-size: 200%;
+        }
+        footer{
+            text-align: center;
+            padding: 0px;
+            margin: auto;
+            background-color: #660000;
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="orig.png" width="100" height="100" alt="logo">
+                <figcaption>ANTEIKU</figcaption>
+            </figure>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="additional.html">Tokyo Ghoul</a></li>
+                <li><a class="active" href="about.html">About the Restaurant</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html">Homepage</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1 id="c">About Anteiku</h1>
+            <h1>Anteiku is a coffee shop from the anime Tokyo Ghoul. This is the website version of Anteiku. Costumers will enjoy coming in this coffee shop, especially the fans of Tokyo Ghoul. </h1>
+            <h1>We have more than 10 branches around Nueva Ecija. Come to our store and enjoy the ambiance, foods, and more with your family and friends!!!.</h1>
+            <h1><a href="https://www.facebook.com/">Order here</a> or contact us at this number, 09610162233</h1>
+        </section>
+        <aside>
+            <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/07/tokyo-ghoul-hide-anime-death-ending.jpg" width="600" alt="tokyo_ghoul">
+        </aside>
+        <audio controls="controls">
+            <source src="unravel.mp3" type="audio/mpeg">
+        </audio>
+    </body>
 </html>

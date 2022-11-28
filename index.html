@@ -1,174 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>One Piece</title>
+        <title>Anteiku</title>
         <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <style>
-        .header {
-            padding: 0;
-            text-align: center;
-            background: black;
-            color: #0EB774;
-            font-size: 40px;
-            overflow: hidden;
-            min-height:300px;
-            background:url('https://assets-prd.ignimgs.com/2021/03/05/one-piece-general-1614968636890.jpg') no-repeat;
-            background-size:cover;
-            background-position: center center;
-            font-family: 'Noto Sans JP', sans-serif;
-        }
-        .active{
-            background-color: cyan;
-        }         
-        #home{
-            margin: 0px;
-            padding: 10px;
-            border: none;
-        }
         body{
-            background-color: beige;
-            width: 1350px;
             margin-left: auto;
             margin-right: auto;
+            width: 1350px;
+            font-family: 'Dancing Script', cursive;
+            background-color: #000000;
+            
         }
-        .a{
-            text-align: left;
-            width: 684px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            float: right;
-        }
-        .b{
-            font-family: 'Noto Sans JP', sans-serif;
-        }
-        .sub1{
-            text-indent: 30px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 30px;
-            padding-right: 30px;      
-            background-color: #5ce1e6;
-            border: 1px solid black;
-        }
-        .sub2{
-            font-family: 'Noto Sans JP', sans-serif;
+        header{
+            background-color: #000000;
+            padding: 10px 12px;
+            color:	#fc0000;
             text-align: center;
-            color: black;
+            border: 3px solid #660000;
         }
-        .sub3{
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 30px;
-            padding-right: 30px;      
-            background-color: #5ce1e6;
-            border: 1px solid black; 
-        }
-        .b{
-            float:left;
-        }
-        .c{
+        figure{
             text-align: left;
-            width: 684px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            float: right;
         }
-        .d{
-            font-family: 'Noto Sans JP', sans-serif;
-            float: right;
+        figcaption{
+            font-size: 150%;
         }
-        #characters{
-            margin: 0;
-            padding: 10px;
-            border: none;
+        nav{
+            width: 100%;
+            background-color: #660000;
+            background-blend-mode: lighten;
+            font-size: 150%;
+            
         }
-        #arcs{
-            margin: 0;
-            padding: 10px;
-            border: none;
-        }
-        #news{
-            margin: 0;
-            padding: 10px;
-            border: none;
-        }
-        #about{
-            margin: 0;
-            padding: 10px;
-            border: none;
-        }
-        ul{
+        nav ul{
+            width: 1350px;
             list-style-type: none;
-            margin: 0;
-            padding: 0;
+            padding: 0px;
             overflow: hidden;
-            border: 3px solid skyblue;
-            background-color: #f3f3f3;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 0;
+            margin-bottom: 0;
         }
-        li {
-            float: left;
+        nav ul li{
+            float: right;
         }
-        li a {
+        nav ul li a{
             display: block;
-            color: black;
+            color: white;
             text-align: center;
-            padding: 14px 16px;
             text-decoration: none;
+            padding: 14px 16px;
+            font-size: 15pt;
         }
-
-        li a:hover:not(.active) {
-            background-color: #1bd4ec;
+        nav ul li:hover{
+            background-color: #101010;
         }
-        li a.active {
-            color: black;
-            background-color: #1bd4ec;
+        nav li a.active{
+            background-color: #101010;
         }
+        section{
+            width: 800px;
+            float:left;
+            text-align: center;
+            margin: auto;
+            color: #fc0000;
+        }
+        #title{
+            text-align: center;
+            font-size: 200%;
+        }
+        .paragraph{
+            text-align: center;
+            font-size: 150%;
+        }
+        figure{
+            text-align: center;
+            margin: auto;
+        }
+        aside{
+            float: right;
+            text-align: center;
+            margin:auto;
+            width: 550px;
+        }
+        #a{
+            font-size: 120%;
+            font-weight: bold;
+        }
+        #b{
+            font-family:Arial, Helvetica, sans-serif
+        }
+        #c{
+            font-size: 200%;
+        }
+        video{
+           float:left;
+           top: 0;
+           bottom: 0;
+           width: 500px;
+        }       
+        
     </style>
     </head>
     <body>
-    <div class="header">
-        <h1>ONE PIECE: EAST BLUE SAGA</h1>
-        </div>
-    <div class="navbar">
-        <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="characters.html">Characters</a></li>
-        <li><a href="arcs.html">Arcs</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="about.html">About</a></li>
-        </ul>
-    </div>
-    <div id="home">
-        <h1 style="color: black; text-align: center;">Introduction</h1>
-        <img class="b" src="https://nefariousreviews.files.wordpress.com/2020/08/one-piece-featured.jpg" width="600" height="530" alt="east_blue">
-        <div class="a">
-            <div class="b">
-                <p class="sub1">"Wealth, fame, power. The world had it all won by one man: the Pirate King, Gold Roger. At his death, the words he spoke drove countless men out to sea.
-                    "My treasure? It's yours if you want it. Find it! I left all the world has there!"
-                    And so men set sights on the Grand Line, in pursuit of their dreams. The world has truly entered a Great Pirate Era!".</p>
-                    <div class="a">
-                        <div class="b">
-                            <p class="sub1">Yokoso, Nakama!!! One Piece is a story about a certain pirate who wants to be a Pirate King along with his crew.
-                                They are the so called "Straw Hat Pirates"(Mugiwara no Ichimi) and known for having a jolly
-                                roger with a skull and straw hat on it. They are originally from the East Blue, their captain,
-                                Monkey D. Luffy, came from Windmill Vilage and was raised by his Grandfather, Monkey D. Garp.
-                                Their Navigator, Nami, is originally from Oykot Kingdom but was adopted by Belle-mere to Cocoyasi
-                                Village. Their swordsman, Roronoa Zoro, came from Shimotsuki Village. Their sniper, Usopp, came
-                                from Syrup Village. Lastly, their chef, Black Leg Sanji, originally came from North Blue but was
-                                later on adopted by a Legendary Pirate and he became a waiter to the famous sea restaurant
-                                Baratie in the East Blue. In the Character Page, you will learn more about their characteristics
-                                and their origins.</p>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-</body>
+        <header>
+            <figure>
+                <img src="orig.png" width="100" height="100" alt="logo">
+                <figcaption>ANTEIKU</figcaption>
+            </figure>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="additional.html">Tokyo Ghoul</a></li>
+                <li><a href="about.html">About the Restaurant</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="active" href="index.html">Homepage</a></li>
+            </ul>
+        </nav>
+    <section>
+        <h1 id="title">Yokoso, Anteiku da!!!</h1>
+        <p class="paragraph">Welcome to the world of coffee! Here, you can order different menu that you can see in a coffee shop. This coffee shop is the real life version of Anteiku, a coffee shop found in the anime Tokyo Ghoul. So order now and have fun here in Anteiku!!!</p>
+        <img src="https://i.pinimg.com/564x/20/59/7e/20597ee709ed2506ebcb0b7bb67229ef.jpg" width="500" height="250" alt="anteiku">
+    </section>
+    <aside>
+        <br>
+        <br>
+        <br>
+        <video width="400" height="400" controls>
+            <source src="coffee.mp4" type="video/mp4">
+        </video>
+    </aside>
+    </body>
 </html>
